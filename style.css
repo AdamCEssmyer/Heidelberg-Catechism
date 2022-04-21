@@ -4,8 +4,17 @@
 
 
 button{
-  background-color:grey;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
+  background-color:#8f8a8a;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
 font-family: 'Bebas Neue', cursive;  color: #343232;  font-size: 15px;  padding: 15px;}
+}
+
+button {
+  transition: transform 250ms;
+  transition-timing-function: ease-out;
+}
+
+button:hover{
+  transform: translateY(-10px);
 }
 
 body{
