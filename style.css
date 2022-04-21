@@ -1,0 +1,27 @@
+.wow {
+  width: 100px;
+}
+
+body{
+    animation: fadeInAnimation ease 3.5s
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+button{
+  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
+font-family: Arial;  color: #343232;  font-size: 15px;  padding: 15px;}
+}
+
+body{
+  font-family: 'Exo 2', sans-serif;
+}

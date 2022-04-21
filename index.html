@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Heidelberg Catechism</title>
+  <style>
+  .exp{visibility: hidden;}
+  body{
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+  }
+    @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    body {
+      font-family: 'Bebas Neue', cursive;
+    }
+
+    
+</style> 
+  <link href="style.css" rel="stylesheet" type="text/css" />
+ <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@200&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  Heidelberg Catechism
+<h1>Question 1: What is your only comfort in life and in death?</h1>
+  <button onclick="unhide()">Answer</button>
+  <div class="exp">
+    <p class="and">That I am not my own, but belong— body and soul, in life and in death—to my faithful Savior, Jesus Christ.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
