@@ -2,9 +2,14 @@
   width: 100px;
 }
 
+.title{
+  font-size: x-large;
+  text-decoration: underline;
+}
+
 
 button{
-  background-color:#c528a8;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
+  background-color:#8a3636;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
 font-family: 'Bebas Neue', cursive;  color: #343232;  font-size: 15px;  padding: 15px;}
 }
 
@@ -34,3 +39,8 @@ body{
   body {
     font-family: 'Bebas Neue', cursive;
   }
+
+ h1, h2, h3{
+  font-size: larger;
+ } 
+
