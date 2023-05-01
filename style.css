@@ -4,12 +4,12 @@
 
 
 button{
-  background-color:#8f8a8a;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
+  background-color:#c528a8;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
 font-family: 'Bebas Neue', cursive;  color: #343232;  font-size: 15px;  padding: 15px;}
 }
 
 button {
-  transition: transform 250ms;
+  transition: transform 500ms;
   transition-timing-function: ease-out;
 }
 
@@ -18,5 +18,19 @@ button:hover{
 }
 
 body{
-  font-family: 'Bebas Neue', cursive;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  body {
+    font-family: 'Bebas Neue', cursive;
+  }
