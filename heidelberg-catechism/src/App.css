@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body {
+  font-family: 'Bebas Neue';
+}
+
+.main {
+  max-width: 800px;
+  margin: 0px auto;
+  padding-left: 100px;
+  min-height: 100vh;
+}
