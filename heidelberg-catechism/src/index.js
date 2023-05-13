@@ -1,12 +1,6 @@
-import {React} from "react";
-import "./src/App.css";
+import {createRoot} from 'react-dom/client';
 
-function App() {
-  return (
-    <div className = "main">
+document.head.innerHTML = <div id="index"></div>
 
-    </div>
-  );
-}
-
-export default App;
+const root = createRoot(document.getElementById('index'));
+root.render(<h1>"Heidelberg Catechism(1563)"</h1>);
