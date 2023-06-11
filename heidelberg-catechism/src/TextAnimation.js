@@ -1,8 +1,8 @@
-/*import React from "react"
+import React from 'react';
+import {Wave} from 'react-animated-text';
 
-export default function TextAnimation(){
-   return <Wrapper>Heidelberg Catechism</Wrapper>
-}
-*/
+const titleText = () => (
+    <Wave text="Heidelberg Catechism(1563)" />
+);
 
 
