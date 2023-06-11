@@ -18,7 +18,7 @@ button {
   transition-timing-function: ease-out;
 }
 
-button:hover{
+button:hover{ 
   transform: translateY(-10px);
 }
 
