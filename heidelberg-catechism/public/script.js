@@ -6,6 +6,10 @@ function unhide() {
   }
 }
 
+function hide(){
+  document.getElementsByClassName.style.visibility="hidden";
+}
+
 function unhide2() {
   var hid = document.getElementsByClassName("exp2");
   if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
