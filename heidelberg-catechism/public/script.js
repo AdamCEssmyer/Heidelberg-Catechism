@@ -4,10 +4,7 @@ function unhide() {
   if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
     hid[0].style.visibility = "visible";
   }
-}
-
-function hide(){
-  document.getElementsByClassName.style.visibility="hidden";
+  else(hid[0].style.visibility = 'hidden');
 }
 
 function unhide2() {
