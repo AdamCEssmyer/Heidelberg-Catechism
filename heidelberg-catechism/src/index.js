@@ -1,5 +1,4 @@
 import React from 'react';
-import TextAnimation from './TextAnimation';
 import {createRoot} from 'react-dom/client';
 
 document.head.innerHTML = <div id="index"></div>
