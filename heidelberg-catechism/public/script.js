@@ -22,3 +22,10 @@ function unhide3() {
     hid[0].style.visibility = "visible";
   }
 }
+
+function unhide4() {
+  var hid = document.getElementsByClassName("exp4");
+  if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+    hid[0].style.visibility = "visible";
+  }
+}
