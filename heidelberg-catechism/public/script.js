@@ -29,9 +29,11 @@ function unhide4() {
   }
 }
 
-function unhide5(){
+function unhide5() {
   const hid = document.getElementsByClassName("exp5");
-  if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0){
+  if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
     hid[0].style.visibility = "visible";
   }
 }
+
+
