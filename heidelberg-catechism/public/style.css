@@ -11,7 +11,7 @@
 button{
   background-color:#8a3636;   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 15px; 
 font-family: 'Bebas Neue', cursive;  color: #343232;  font-size: 15px;  padding: 15px;}
-}
+
 
 button {
   transition: transform 500ms;
