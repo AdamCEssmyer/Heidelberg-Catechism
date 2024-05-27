@@ -18,7 +18,7 @@ button {
   transition-timing-function: ease-out;
 }
 
-button:hover{
+button:hover{ 
   transform: translateY(-10px);
 }
 
@@ -40,7 +40,7 @@ body{
     font-family: 'Bebas Neue', cursive;
   }
 
- h1, h2, h3, h4, h5{
+ h1, h2, h3{
   font-size: larger;
  } 
 
